@@ -219,13 +219,17 @@ main {
 
 .galeria-imagem {
   width: 100%;
+  height: 250px;          /* altura fixa da caixinha (pode aumentar/diminuir) */
   border-radius: 0.8rem;
   margin-bottom: 0.8rem;
   overflow: hidden;
+  background: #fff;
 }
+
 .foto-kaka {
   width: 100%;
-  height: auto;        /* deixa a foto inteira aparecer */
+  height: 100%;
+  object-fit: contain;    /* mostra a foto inteira dentro da caixa */
   display: block;
   border-radius: 0.8rem;
 }
