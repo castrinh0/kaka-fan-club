@@ -219,11 +219,16 @@ main {
 
 .galeria-imagem {
   width: 100%;
-  height: 150px;
   border-radius: 0.8rem;
   margin-bottom: 0.8rem;
+  overflow: hidden;
 }
-
+.foto-kaka {
+  width: 100%;
+  height: auto;        /* deixa a foto inteira aparecer */
+  display: block;
+  border-radius: 0.8rem;
+}
 .fake-img {
   display: flex;
   align-items: center;
